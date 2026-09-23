@@ -2,8 +2,9 @@
 
 Ejercicio 02 del curso (DPPI 2026), sobre visión artificial y representación. La idea es tomar una sola cámara y usarla para armar dos maneras completamente distintas de "ver" e interactuar con lo mismo.
 
-**Demo:** https://fefeliperoar.github.io/dos-realidades/  
-**Repo:** https://github.com/fefeliperoar/dos-realidades  
+**Demo:**  https://maiteev.github.io/No-solo-lo-intencional-se-nota/
+
+**Repo:** https://github.com/maiteev/No-solo-lo-intencional-se-nota
 
 ## De qué se trata
 
@@ -38,15 +39,11 @@ Acepta los permisos de cámara web y presiona el botón **"Cámara"**.
 
 ## Reflexión
 
-Frente a la cámara ocurre una sola escena, pero cada sistema extrae una verdad completamente distinta.
-Uno aísla la voluntad humana y la convierte en caligrafía simétrica y efímera sobre el vacío. El otro revela el espacio físico como un campo energético donde la materia quieta es invisible a los bordes, pero el movimiento enciende la geometría del entorno en calor luminoso.
+Frente a la cámara ocurre una sola escena, pero cada lado de la pantalla extrae una verdad totalmente distinta sobre la tensión entre lo voluntario y lo involuntario de nuestro cuerpo.
 
-Merleau-Ponty planteaba que nuestra percepción está ligada a las posibilidades y límites de nuestro cuerpo. Con las máquinas ocurre algo idéntico: aquello que pueden percibir depende de cómo fueron construidas y de qué les enseñamos a buscar. Un sistema ve gesto y simetría; el otro ve gradientes ópticos y perturbación física.
+Por un lado, se responde a lo voluntario: aísla la intención de la mente a través de un gesto consciente, reconociendo solamente el dedo índice para transformar el espacio en un lienzo interactivo. Aquí la máquina nos trata como creadores de significado, personas capaces de usar su cuerpo de forma libre y ordenada para comunicarse, diseñar formas o simplemente jugar.
 
-Kosuth nos recuerda que una representación nunca es aquello que representa. Las líneas rojas reflejadas y los bordes térmicos fosforescentes nos hablan de una persona y de un espacio, pero no son ni la persona ni la habitación.
-
-Tal vez lo interesante de construir una máquina que observa no sea preguntarnos cuánto puede ver, sino comenzar a reconocer todo aquello que, inevitablemente, deja fuera.
-
+Por el otro, se expone lo involuntario: nos muestra como materia viva, un cuerpo biológico que emite calor, se mueve de forma caótica y jamás se puede quedar quieto. Aunque intentemos no movernos, el sistema delata la energía con sus micro-movimientos que se escapan por completo de nuestro control, donde demuestra que siempre seremos seres en constante movimiento.
 ## Tecnologías
 
 * **MediaPipe Hand Landmarker** (cargado dinámicamente vía CDN desde `@mediapipe/tasks-vision`) con aceleración por GPU (WebGL) y fallback a CPU.
