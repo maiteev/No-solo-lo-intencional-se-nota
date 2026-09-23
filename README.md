@@ -51,4 +51,4 @@ Por el otro, se expone lo involuntario: nos muestra como materia viva, un cuerpo
 * **HTML5 Canvas 2D & Vanilla JavaScript**, sin frameworks pesados ni etapas de build.
 
 ---
-Felipe · Ejercicio 02 — Dos realidades · DPPI 2026 · Escuela de Diseño UDP
+Anto Acevedo y Maite Villarroel· Ejercicio 02 — No solo lo intencional se nota · DPPI 2026 · Escuela de Diseño UDP
