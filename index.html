@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Dos realidades — Visión artificial</title>
+<meta name="description" content="Una misma cámara, dos sistemas de visión artificial construyendo representaciones distintas de la misma escena.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <p class="eyebrow">EJERCICIO_2</p>
+  <h1>No solo lo intencional se nota
+  </h1>
+  <p class="lede">Una sola cámara, se visualizan los gestos voluntarios dejando rastro de los movimientos involuntarios, dos perspectivas distintas.</p>
+</header>
+
+<main>
+
+  <section class="controls">
+    <div class="btn-wrapper" id="cameraBtnWrapper">
+      <button class="btn" id="startBtn" type="button">
+        <span class="btn-txt">Cámara</span>
+        <div class="dot pulse" id="cameraDot"></div>
+      </button>
+    </div>
+    <p id="statusMsg" class="status" role="status" aria-live="polite">La cámara aún no está activa.</p>
+  </section>
+
+  <section class="stage" id="stage">
+    <article class="panel" id="panelA">
+      <div class="panel-head">
+        <h2>Sistema 1 — Voluntario</h2>
+
+      </div>
+      <div class="canvas-wrap">
+        <canvas id="canvasA" width="640" height="480"></canvas>
+        <p class="idle-hint" id="idleHintA">Apuntame…</p>
+      </div>
+      <p class="caption">MediaPipe Hands · <span id="statA">sin datos</span></p>
+    </article>
+
+    <article class="panel" id="panelB">
+      <div class="panel-head">
+        <h2>Sistema 2 — Involuntario</h2>
+
+      </div>
+      <div class="canvas-wrap">
+        <canvas id="canvasB" width="640" height="480"></canvas>
+      </div>
+      <p class="caption">Visión OpenCV · <span id="statB">sin datos</span></p>
+    </article>
+  </section>
+
+  <section class="reflection-section">
+    <h2>Reflexión</h2>
+    <p>
+Frente a la cámara ocurre una sola escena, pero cada lado de la pantalla extrae una verdad totalmente 
+distinta sobre la tensión entre lo voluntario y lo involuntario de nuestro cuerpo.
+
+    </p>
+    <p>
+      Por un lado, se responde a lo voluntario: aísla la intención de la mente a través de un gesto consciente,
+      reconociendo solamente el dedo índice para transformar el espacio en un lienzo interactivo. Aquí la máquina
+       nos trata como creadores de significado, personas capaces de usar su cuerpo de forma libre y ordenada para
+       comunicarse, diseñar formas o simplemente jugar.
+    </p>
+    <p>
+      Por el otro, se expone lo involuntario: nos muestra como materia viva, un cuerpo biológico que emite calor,
+      se mueve de forma caótica y jamás se puede quedar quieto. Aunque intentemos no movernos, el sistema delata 
+       la energía con sus micro-movimientos que se escapan por completo de nuestro control, donde demuestra
+       que siempre seremos seres en constante movimiento.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Código fuente: <a id="repoLink" href="https://github.com/fefeliperoar/dos-realidades" target="_blank" rel="noopener">repositorio en GitHub</a></p>
+  <p class="credit">Profesor:Felipe Roa R. - Ejercicio 02 - DPPI 2026 - Escuela de Diseño UDP</p>
+   <p class="credit">Estudiantes: Anto Acevedo/ Maite Villarroel</p>
+</footer>
+
+<video id="video" playsinline autoplay muted></video>
+<canvas id="hiddenSample" width="48" height="36"></canvas>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
